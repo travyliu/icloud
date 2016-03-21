@@ -48,7 +48,7 @@ reminder.controller('rdCtrl', ['$scope', function($scope){
 		}
 		$scope.shijianliebiao.push(data);
 	};
-      console.log($scope.shijianliebiao);
+      //console.log($scope.shijianliebiao);
 	 $scope.shijianliebiao=d?JSON.parse(d):[];
     $scope.clear=function(){
     	localStorage.clear();
